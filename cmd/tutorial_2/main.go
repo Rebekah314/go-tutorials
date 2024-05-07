@@ -24,8 +24,12 @@ func main() {
 	fmt.Println("")
 	fmt.Println(myBoolean)
 
-	//get fancy and initalize multiple variables at once with infered data type
+	//Get fancy and initalize multiple variables at once with infered data type.
+	//(This is only safe when the data-type is obvious.)
+	//Readability and accessibility are more important than fanciness, always
 	var1, var2 := 3, 3.14
+	//these are stored as int and float64, according to error when I tried to add them
 	fmt.Println(var1)
 	fmt.Println(var2)
+	fmt.Println(float64(var1) + var2)
 }
