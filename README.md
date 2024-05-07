@@ -7,3 +7,4 @@ Table of Contents
 -
 * tutorial_1: Print "Hello World!" to terminal
 * tutorial_2: Define and print-to-termial various data types, with simple operations, type-casting, and string length
+* tutorial_3: Compute all prime numbers between 1 and a max value from user input
