@@ -32,9 +32,7 @@ func main() {
 				primeCount += 1
 
 			}
-
 		}
-
 	}
 	fmt.Println("There are " + strconv.Itoa(primeCount) + " prime numbers between 2 and " + strconv.Itoa(maxInt))
 
